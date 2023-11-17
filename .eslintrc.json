@@ -15,8 +15,6 @@
         "space-infix-ops": ["error", { "int32Hint": false }],
         "indent": ["error", 2],
     "semi": ["error", "always"],
-    "quotes": ["error", "single"],"indent": ["error", 2], 
-    "semi": ["error", "always"], 
     "quotes": ["error", "single"]
     },
     "settings": {

@@ -1,0 +1,16 @@
+header {
+    background-color: yellow;
+    text-align: center;
+
+}
+
+content {
+    background-color: blue;
+}
+
+footer{
+    background-color: gray;
+    position: absolute;
+    bottom: 0px;
+    right: 0px ;
+}
