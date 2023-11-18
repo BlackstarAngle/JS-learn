@@ -9,16 +9,20 @@
 </head>
 <body>
     <Header>
-        <div class="title">
-          <h1 id="id_1"></h1>
+      <div class="title"><h1 id="id_1"></h1></div>
+        <div class="infoAbout">
+          <p><span class="infoAbout"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem earum totam aut dolore velit libero voluptate ducimus molestias tenetur blanditiis quos eum quaerat, reprehenderit facilis. Tempora quidem omnis eligendi iusto! Quisquam obcaecati accusantium asperiores, facere consequatur hic corporis nisi quidem temporibus, eum in. Mollitia voluptatibus nesciunt excepturi magni sint nulla hic, dolorem reprehenderit doloremque voluptas sed sit tenetur fugit quas vitae repellendus ab omnis facilis! Quaerat iure voluptates exercitationem dolor quo iste velit ex accusamus molestiae. Ab enim repellendus voluptate perspiciatis inventore magni quibusdam culpa eos amet praesentium! Architecto sed dolor totam ad exercitationem aut nesciunt ipsam, quia iste, sint unde repellat nostrum provident facilis tenetur quas impedit sit vitae nulla ratione nemo! Obcaecati inventore, repellendus placeat aut ea illo, optio ex vitae id porro dicta nam sed perferendis dolores dignissimos. Esse, ab odio ea reiciendis sit dolore quae neque quod quisquam, placeat id facere voluptatibus architecto doloribus repellat eum, assumenda commodi et obcaecati doloremque accusantium ex cupiditate veritatis. Odit, facilis saepe laborum molestiae optio itaque dolorem vero animi reprehenderit tempora suscipit nobis distinctio impedit consequatur incidunt sequi quasi quam autem voluptatum iure delectus soluta perferendis blanditiis. Id rerum ab hic, maxime distinctio saepe atque recusandae, deleniti natus vel error corrupti excepturi ipsum reiciendis voluptate possimus? Quam, consectetur, voluptates exercitationem itaque perferendis doloremque commodi repudiandae delectus tenetur, accusamus quidem nam sunt quod vero ea accusantium tempore voluptate! Odio nostrum similique, amet odit nesciunt debitis? Repellendus nisi odit recusandae harum nesciunt amet? Dignissimos autem neque impedit consequuntur numquam consectetur maiores illo voluptatem veniam doloremque assumenda sapiente incidunt velit rerum, ducimus quod ratione unde suscipit quia. Quaerat similique reprehenderit officiis libero deleniti, commodi nesciunt, doloribus qui accusantium nobis ex vitae eligendi, nihil enim sunt placeat? Amet, mollitia sequi? Ducimus odit voluptates, animi itaque error debitis alias ut aspernatur repellendus, laudantium dolorem obcaecati ipsum soluta fuga saepe delectus commodi et amet voluptatum cumque? Facere quia nihil repellendus dignissimos at labore iste eligendi modi fugiat natus asperiores totam velit, nisi ullam? Ut veritatis hic labore, mollitia ex assumenda obcaecati excepturi consequuntur? Quidem vel, neque, quibusdam explicabo harum ullam, consectetur delectus tempora nam iusto quam.
+          </span></p>
         </div>
     </Header>
     
-    <container>
-        <div>
-          <p id="id_3"></p>
+    <section>
+        <div class="sectionA">
+          <div class="button">
+            <p id="id_3">Let's Start!</p>
+          </div>
         </div>
-    </container>
+    </section>
 
     <footer>
         <div>
@@ -26,8 +30,14 @@
         </div>
     </footer>
 
-
-
+    <div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <textarea id="textInput" rows="10" cols="50"></textarea>
+    <button onclick="processText()">Process Text</button>
+    <div id="result"></div>
+  </div>
+</div>
 
     <script src="index.js"> </script>
 </body>
